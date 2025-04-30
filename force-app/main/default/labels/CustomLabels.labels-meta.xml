@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Building_Account_Record_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Building Account Record Type Id</shortDescription>
+        <value>012dL000005uFUbQAM</value>
+    </labels>
+    <labels>
+        <fullName>Camera_Systems</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event Log Camera Systems Record Type Id</shortDescription>
+        <value>012dL0000063pTxQAI</value>
+    </labels>
+    <labels>
+        <fullName>Event_Log_Fire_Sensor_RecordTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event Log Fire Sensor RecordTypeId</shortDescription>
+        <value>012dL0000063pP7QAI</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktDataConnection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectionMethod>Ingress</connectionMethod>
+    <connectionStatus>ACTIVE</connectionStatus>
+    <connectorName>GoogleDrive</connectorName>
+    <credentials>
+        <fullName>fire_detection_google_connector_namedCredential</fullName>
+        <credentialName>namedCredential</credentialName>
+        <value>*</value>
+    </credentials>
+    <externalRecordIdentifier>3d90461e-443c-4c8b-9b87-f9d0eedb01a1</externalRecordIdentifier>
+    <masterLabel>fire detection google connector</masterLabel>
+</MktDataConnection>

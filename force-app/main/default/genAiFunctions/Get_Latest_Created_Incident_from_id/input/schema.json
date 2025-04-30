@@ -1,0 +1,14 @@
+{
+  "required" : [ "inputVar" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "inputVar" : {
+      "title" : "inputVar",
+      "description" : "Get the input variable from users instruction",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

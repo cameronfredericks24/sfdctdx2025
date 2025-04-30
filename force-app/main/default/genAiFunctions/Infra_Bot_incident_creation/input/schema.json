@@ -1,0 +1,21 @@
+{
+  "required" : [ "incidentBuilding", "incidentSubject" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "incidentBuilding" : {
+      "title" : "incidentBuilding",
+      "description" : "this stores the building name inputed by the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "incidentSubject" : {
+      "title" : "incidentSubject",
+      "description" : "this stores the description of the incident",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

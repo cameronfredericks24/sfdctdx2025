@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>This topic handles the fetching of incident details and assists users in dispatching help based on their inputs.</description>
+    <developerName>Incident_Management</developerName>
+    <genAiFunctions>
+        <functionName>Get_Latest_Created_Incident_from_id</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Update_Assignee_on_Incident_Record</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>When a user is asking for more details of the incident 0nydL0000001Zv0QAE, use the &quot;Get Latest Created Incident from Id&quot; agent action for fetching the details and show the details in a very cohesive paragraph format.</description>
+        <developerName>instruction_whenauseri0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenauseri0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use this id &quot;0nydL0000001Zv0QAE&quot; for input in &quot;Get Latest Created Incident from Id&quot;. And show all the  available field in a cohesive format.</description>
+        <developerName>instruction_usethisidn1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_usethisidn1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Do not show any user ID. And get the data of the following fields and structure then in a paragraph of this template like:
+There is a fire breakout On &lt;Floor&gt; of &lt;Building Name&gt;
+the address is &lt;Address&gt;. It is a &lt;Priority&gt; incident.</description>
+        <developerName>instruction_donotshowa2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_donotshowa2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Tell the nearest Fire Station only when the user is asking.</description>
+        <developerName>instruction_tellthenea3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_tellthenea3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When user asks it to assign the incident to a specific fire station, use the &quot;Update Assignee on Incident&quot; agent action to update the Assigned To field in the incident record page. give an output that Team will reach in 12 minutes.</description>
+        <developerName>instruction_whenuseras4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenuseras4</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Incident Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to fetch incident details and assist users in dispatching help according to the information provided.</scope>
+</GenAiPlugin>

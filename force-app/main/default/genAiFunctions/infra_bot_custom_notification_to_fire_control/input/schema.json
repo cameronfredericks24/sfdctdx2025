@@ -1,0 +1,14 @@
+{
+  "required" : [ "incidentId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "incidentId" : {
+      "title" : "incidentId",
+      "description" : "take the incident record Id from the topic",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>This topic is chosen when an incident needs to be generated when the user says that they want to create or log an incident occured in their building, ask them for building name and floor and to describe the incident</description>
+    <developerName>p_16jdL000000hrPG_Automated_Incident_Creation</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Infra_Bot_incident_creation1</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Ensure the incident details are accurate and complete before logging.</description>
+        <developerName>instruction_ensurethei0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ensurethei0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When user talks about sensing or detecting fire or smoke. Asl for building and floor data.</description>
+        <developerName>instruction_whenuserta1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenuserta1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>After creating the incident reply by saying the respective building manager has been notified and will look into the matter on priority.</description>
+        <developerName>instruction_aftercreat2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_aftercreat2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When the building and floor details are inputed, **show a message saying that &quot;hold on for a second, im looking into the sensor data&quot; to simulte a thinking process ** after this you can say that yes there seems to be an issue and it then calls the &quot;Infra Bot: incident creation&quot;</description>
+        <developerName>instruction_whenthebui3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenthebui3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use the &quot;Infra Bot: incident creation&quot; agent action to create an incident. Proactively reply saying that you have noted the incident.</description>
+        <developerName>instruction_usetheinfr4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_usetheinfr4</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Automated Incident Creation</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only create incidents  and ensure they are logged correctly.</scope>
+</GenAiPlugin>

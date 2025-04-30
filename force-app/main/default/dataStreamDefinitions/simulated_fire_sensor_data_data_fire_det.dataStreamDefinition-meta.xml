@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areHeadersIncludedInFile>false</areHeadersIncludedInFile>
+    <bulkIngest>true</bulkIngest>
+    <creationType>Custom</creationType>
+    <dataConnector>fire_detection_google_connector</dataConnector>
+    <dataConnectorType>GoogleDrive</dataConnectorType>
+    <dataPlatformDataSetItemName>CONNECTORSFRAMEWORK</dataPlatformDataSetItemName>
+    <dataSource>GoogleDrive_fire_detection_google_connector</dataSource>
+    <isLimitedToNewFiles>false</isLimitedToNewFiles>
+    <isMissingFileFailure>false</isMissingFileFailure>
+    <masterLabel>simulated_fire_sensor_data_data fire det</masterLabel>
+    <mktDataLakeObject>simulated_fire_sensor_data_data_fire_det__dll</mktDataLakeObject>
+    <mktDataTranObject>simulated_fire_sensor_data_data_fire_det</mktDataTranObject>
+    <parameters>
+        <fullName>simulated_fire_sensor_data_data_fire_det_fileType</fullName>
+        <paramName>fileType</paramName>
+        <value>spreadsheet</value>
+    </parameters>
+    <parameters>
+        <fullName>simulated_fire_sensor_data_data_fire_det_fileUrl</fullName>
+        <paramName>fileUrl</paramName>
+        <value>https://docs.google.com/spreadsheets/d/1NCLamFmt4YpqGYAeLDigJLGIqXeik03B/edit?usp=drive_link&amp;ouid=117063355308034586585&amp;rtpof=true&amp;sd=true</value>
+    </parameters>
+    <parameters>
+        <fullName>simulated_fire_sensor_data_data_fire_det_objectType</fullName>
+        <paramName>objectType</paramName>
+        <value>STRUCTURED_DATA</value>
+    </parameters>
+</DataStreamDefinition>

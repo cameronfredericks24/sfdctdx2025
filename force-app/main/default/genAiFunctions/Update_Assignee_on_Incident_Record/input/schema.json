@@ -1,0 +1,21 @@
+{
+  "required" : [ "assignedToName", "incidentRecordId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "assignedToName" : {
+      "title" : "assignedToName",
+      "description" : "Get the name from the Chat Context and update it to the relevant incident record.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "incidentRecordId" : {
+      "title" : "incidentRecordId",
+      "description" : "Get the incident record od from conversation context.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
